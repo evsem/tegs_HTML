@@ -15,9 +15,119 @@
     <title>pr_1</title>
   </head>
   <body>
+    <h1>Tags HTML</h1>
+    <!--Тег создания формы; придаёт определённую функциональность-->
+    <form action="">
+      <!--Тег поля(строки) ввода - <input/>-->
+      <input type="text" id="input" />
+
+      <div>
+        Name:
+        <!--У полей ввода разные типы приёма данных: text, password, number, email-->
+        <input type="text" />
+      </div>
+
+      <div>
+        Password:
+        <input type="password" />
+      </div>
+
+      <div>
+        Age:
+        <input type="number" />
+      </div>
+
+      <div>
+        Email:
+        <input type="email" />
+      </div>
+    </form>
+
+    <!--Тег создания таблицы-->
+    <table>
+      <!--Шапка таблицы-->
+      <thead>
+        <!--Создание строки таблицы - <tr></tr>-->
+        <tr id="head_table">
+          <!--Создание ячейки таблицы - <td></td>-->
+          <td>Name</td>
+          <td id="prise">Prise</td>
+        </tr>
+      </thead>
+
+      <!--Тело таблицы-->
+      <tbody>
+        <tr>
+          <td class="name">Tea</td>
+          <td class="value">2$</td>
+        </tr>
+        <tr>
+          <td class="name">Coffee</td>
+          <td class="value">4$</td>
+        </tr>
+        <tr>
+          <td class="name">Banana</td>
+          <td class="value">1.5$</td>
+        </tr>
+        <tr>
+          <!--Возможность объеденения ячеек - colspan="2"(внутри двойных кавычек указывается количество ячеек для объеденения по горизонтали; rowspan="2" - объеденение ячеек по вертикали)-->
+          <td colspan="2">All: 3</td>
+        </tr>
+      </tbody>
+
+      <!--Подвал таблицы-->
+      <!-- <tfoot></tfoot> -->
+    </table>
+
+    <!--Тег маркированного списка-->
+    <ul>
+      <li>JS</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+
+    <!--Тег нумированного списка-->
+    <ol>
+      <!--Тег элемента списка - <li></li>-->
+      <li>JS</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ol>
+
+    <!--Тег списка определений-->
+    <dl>
+      <!--Тег свойства-->
+      <dt>JS</dt>
+
+      <!--Тег знчаения-->
+      <dd>Programming language</dd>
+
+      <dt>HTML</dt>
+      <dd>Text language</dd>
+
+      <dt>CSS</dt>
+      <dd>Style language</dd>
+    </dl>
+
+    <!--Семантический тег для изображений(контейнер)-->
+    <figure>
+      <!--Добавление подписи к картинке-->
+      <figcaption></figcaption>
+    </figure>
+    <!--Тег вставки изображения-->
+    <img src="../pr_1/img/sunset_2.jpg" width="800" height="800" alt="#" />
+
+    <!--Пример работы с изображением-->
+    <figure>
+      <img src="../pr_1/img/life_1.jpg" alt="Image" />
+      <figcaption>Life</figcaption>
+    </figure>
+
+    <!--Тег nav создаёт навигационное меню, в которое вкладываются ссылки-->
+    <nav></nav>
+
     <!--Тег ссылки-->
     <a href="http://google.com">Google</a>
-
     <!--Тег ссылки(ссылка откроется в новом окне)-->
     <a href="http://google.com" target="_blank">Google</a>
 
