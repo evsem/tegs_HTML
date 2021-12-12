@@ -74,7 +74,57 @@ dd {
 div {
   margin-bottom: 10px;
 }
+div:last-child {
+  margin-bottom: 0px;
+}
 
-#input {
-  margin-bottom: 10px;
+#select {
+  min-width: 100px;
+  min-height: 22px;
+  margin: 0px 0px 10px 0px;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+#textarea_1 {
+  border: 2px solid grey;
+  border-radius: 6px;
+  margin: 0px 0px 10px 0px;
+}
+
+#fieldset_item {
+  border: 2px solid grey;
+  margin: 0px 0px 10px 0px;
+  max-width: 170px;
+}
+
+#fieldset {
+  border: 2px solid grey;
+  margin: 0px 0px 10px 0px;
+  max-width: 1px;
+}
+
+_btn {
+  max-width: 100px;
+  height: auto;
+  border: 2px solid grey;
+  border-radius: 16px;
+}
+
+.container_btn {
+  display: flex;
+}
+
+.btn {
+  min-width: 68px;
+  height: auto;
+  border: 1px solid lightgrey;
+  border-radius: 16px;
+  margin: 0px auto 8px auto;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Montserrat;
 }
