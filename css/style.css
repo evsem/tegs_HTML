@@ -1,0 +1,21 @@
+body {
+  background-color: cornsilk;
+  font-family: Montserrat;
+}
+
+h6 {
+  font-size: 32px;
+}
+
+pre {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
