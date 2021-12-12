@@ -21,8 +21,17 @@
     <fieldset id="fieldset_item">
       <!--Тег заголовка группы полей-->
       <legend>Form</legend>
+
       <!--Тег поля(строки) ввода - <input/>-->
-      <input type="text" id="input" />
+      <!--Атрибуты тега input: name="text_1" - указывает с каким именем данные будут отправлены на сервер; placeholder="Text" - отображает текст внутри поля, если нет никакой информации; required - указывает на то, что поле должно быть обязательно заполнено; disabled - отключает поле; value="Hello User!" - позволяет задать изначательное значение полю-->
+      <input
+        type="text"
+        id="input"
+        name="text_1"
+        placeholder="Text"
+        required
+        value=""
+      />
     </fieldset>
 
     <textarea name="area" id="textarea_1" cols="54" rows="12"></textarea>
@@ -52,7 +61,7 @@
 
         <div>
           Password:
-          <input type="password" />
+          <input type="password" required />
         </div>
 
         <div>
